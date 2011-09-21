@@ -2,7 +2,7 @@
 Submarine Cable Map
 ===================
 
-[![Submarine Cable Map](http://www.telegeography.com/assets/website/images/icons/interactive-cable-map.jpg)](http://www.submarinecablemap.com)
+[![Submarine Cable Map](http://26.media.tumblr.com/tumblr_lru2g8MJaV1qcsswzo1_500.png)](http://www.submarinecablemap.com)
 
 [TeleGeography's](http://www.telegeography.com) submarine cable map is based on our authoritative [Global Bandwidth](http://www.telegeography.com/research-services/global-bandwidth-research-service/) research and depicts international active and planned submarine cable systems and their landing stations. The map presents data about each cable, including landing points, owners, length, ready-for-service (RFS) date, and website. Try it today! Visit [http://www.submarinecablemap.com](http://www.submarinecablemap.com).
 
