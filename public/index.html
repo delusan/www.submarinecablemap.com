@@ -2,15 +2,15 @@
 <html> 
 <head> 
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> 
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-	<link rel="shortcut icon" href="images/favicon.ico"/>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<link href="images/favicon.ico" rel="shortcut icon" />
 	<meta name="keywords" content="undersea,submarine,cable,network,map,landing,station,international,bandwidth,fiber,optic,capacity,telecom,telecommunications,statistics,data" />
 	<meta name="description" content="Comprehensive interactive map of the world's major operating and planned submarine cable systems and landing stations, updated frequently." />
 	<title>Submarine Cable Map</title>
 	<link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
 	<style type="text/css">
 		#map_canvas[style] {background-color:#fff !important;}
-		#side_bar, #search, div.infoBoxContent {font-family:Helvetica, Arial; font-size: 12px;}
+		#side_bar, #search, div.infoBoxContent, #updated-on {font-family:Helvetica, Arial; font-size: 12px;}
 		#side_bar {float:right;width:320px;height:100%;overflow-y:auto;overflow-x:hidden;border-left:1px solid #d9d9d9;color: #333;}
 		#header, #content, #nav {width:274px;padding:0 28px 0 18px;}
 		#header {padding-top:12px;padding-bottom:9px;margin-bottom:9px;border-bottom:1px solid #d9d9d9;}
@@ -47,11 +47,13 @@
 		a#allCables {display:block;margin:9px 0 0 0;}
 		a {text-decoration:none;}
 		a:hover {color:#bcbcbc;}
+		
+		#updated-on { z-index:9999; position:absolute; bottom:16px; right:323px; font-size:11px;color:#8e0e1b; }
 	</style>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script> 
-	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
-	<script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script> 
+	<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script> 
+	<script src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js" type="text/javascript"></script>
 	<script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-397578-4']);
@@ -416,13 +418,13 @@
 			<p>The <a href="http://www.telegeography.com/telecom-resources/telegeography-infographics/submarine-cable-map/" onclick="window.open('http://www.telegeography.com/telecom-resources/telegeography-infographics/submarine-cable-map/','tg'); return false;">Submarine Cable Map</a> is a free resource from TeleGeography. Data contained in this map is drawn from <a href="http://www.telegeography.com/research-services/global-bandwidth-research-service/index.html" onclick="window.open('http://www.telegeography.com/research-services/global-bandwidth-research-service/index.html','tg'); return false;">Global Bandwidth Research Service</a> and is updated on a regular basis.</p>
 			<p>To learn more about TeleGeography or this map please click <a href="http://www.telegeography.com/telecom-resources/telegeography-infographics/submarine-cable-map/" onclick="window.open('http://www.telegeography.com/telecom-resources/telegeography-infographics/submarine-cable-map/','tg'); return false;">here</a>.</p>
 			<div id="footer">
-				<a class="facebook" href="http://www.facebook.com/sharer.php?u=http://www.submarinecablemap.com/"></a>
-				<a class="twitter" href="https://twitter.com/share?original_referer=http%3A%2F%2Fwww.submarinecablemap.com%2F&source=tweetbutton&text=Submarine+Cable+Map&url=http%3A%2F%2Fwww.submarinecablemap.com"></a>
+				<a href="http://www.facebook.com/sharer.php?u=http://www.submarinecablemap.com/" class="facebook"></a>
+				<a href="https://twitter.com/share?original_referer=http%3A%2F%2Fwww.submarinecablemap.com%2F&source=tweetbutton&text=Submarine+Cable+Map&url=http%3A%2F%2Fwww.submarinecablemap.com" class="twitter"></a>
 				<a href="mailto:cablemap@telegeography.com">Feedback</a>
 				<span>All content &#169; 2011 PriMetrica, Inc.</span>
 			</div>
 		</div>
-			<div id="nav" class="ui-widget">
+			<div class="ui-widget" id="nav">
 				<input id="search" />
 			</div>
 		<div id="content">
@@ -431,5 +433,6 @@
 		</div>
 	</div>
 	<div id="map_canvas"></div>
+	<div id="updated-on">Updated on Sep 23, 2011</div>
 </body> 
 </html>
