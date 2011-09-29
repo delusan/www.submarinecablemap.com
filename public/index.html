@@ -49,6 +49,8 @@
 		a:hover {color:#bcbcbc;}
 		
 		#updated-on { z-index:9999; position:absolute; bottom:16px; right:323px; font-size:11px;color:#8e0e1b; }
+		#updated-on a, #updated-on a:visited {color:#8e0e1b}
+		#updated-on a:hover {color:#bcbcbc;}
 	</style>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script> 
@@ -433,6 +435,6 @@
 		</div>
 	</div>
 	<div id="map_canvas"></div>
-	<div id="updated-on">Updated on Sep 29, 2011</div>
+	<div id="updated-on"><a href="https://github.com/telegeography/www.submarinecablemap.com" onclick="window.open(this.href,'github'); googleAnalyticsCall('github'); return false;">Updated on Sep 29, 2011</a></div>
 </body> 
 </html>
