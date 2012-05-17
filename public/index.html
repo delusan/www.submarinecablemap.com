@@ -1,13 +1,13 @@
 <!DOCTYPE html> 
 <html> 
 <head> 
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> 
+	<meta content="initial-scale=1.0, user-scalable=no" name="viewport" /> 
 	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-	<link href="images/favicon.ico" rel="shortcut icon" />
-	<meta name="keywords" content="undersea,submarine,cable,network,map,landing,station,international,bandwidth,fiber,optic,capacity,telecom,telecommunications,statistics,data" />
-	<meta name="description" content="TeleGeography's comprehensive and regularly updated interactive map of the world's major submarine cable systems and landing stations." />
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<meta content="undersea,submarine,cable,network,map,landing,station,international,bandwidth,fiber,optic,capacity,telecom,telecommunications,statistics,data" name="keywords" />
+	<meta content="TeleGeography's comprehensive and regularly updated interactive map of the world's major submarine cable systems and landing stations." name="description" />
 	<title>Submarine Cable Map</title>
-	<link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+	<link type="text/css" rel="stylesheet" href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" />
 	<style type="text/css">
 		#map_canvas[style] {background-color:#fff !important;}
 		#side_bar, #search, div.infoBoxContent, #updated-on {font-family:Helvetica, Arial; font-size: 12px;}
@@ -346,6 +346,12 @@
 				}
 
 				jQuery("<li>").html("<strong>URL:</strong> ").append(link).appendTo(cable_attrs);
+				
+				if(data.notes){
+					jQuery("<li>").html("<strong>Note:</strong> ").append(data.notes).appendTo(cable_attrs);
+				}
+				
+				
 				jQuery("<h3>").html("Landing Points").appendTo("#side_bar #description");
 				selectCable(data['id'],jQuery.parseJSON(data['description']));
 				
@@ -419,22 +425,22 @@
 <body onload="initialize()">
 	<div id="side_bar">
 		<div id="header">
-			<a href="http://www.telegeography.com/" onclick="window.open(this.href, 'tg'); return false;"><img src="images/telegeography-logo.png" alt="TeleGeography, Authoritative Telecom Data" /></a>
+			<a onclick="window.open(this.href, 'tg'); return false;" href="http://www.telegeography.com/"><img src="images/telegeography-logo.png" alt="TeleGeography, Authoritative Telecom Data" /></a>
 			<h1>Submarine Cable Map</h1>
-			<p>The <a href="http://www.telegeography.com/telecom-resources/telegeography-infographics/submarine-cable-map/" onclick="window.open('http://www.telegeography.com/telecom-resources/telegeography-infographics/submarine-cable-map/','tg'); return false;">Submarine Cable Map</a> is a free resource from TeleGeography. Data contained in this map is drawn from <a href="http://www.telegeography.com/research-services/global-bandwidth-research-service/index.html" onclick="window.open('http://www.telegeography.com/research-services/global-bandwidth-research-service/index.html','tg'); return false;">Global Bandwidth Research Service</a> and is updated on a regular basis.</p>
-			<p>To learn more about TeleGeography or this map please click <a href="http://www.telegeography.com/telecom-resources/telegeography-infographics/submarine-cable-map/" onclick="window.open('http://www.telegeography.com/telecom-resources/telegeography-infographics/submarine-cable-map/','tg'); return false;">here</a>.</p>
+			<p>The <a onclick="window.open('http://www.telegeography.com/telecom-resources/telegeography-infographics/submarine-cable-map/','tg'); return false;" href="http://www.telegeography.com/telecom-resources/telegeography-infographics/submarine-cable-map/">Submarine Cable Map</a> is a free resource from TeleGeography. Data contained in this map is drawn from <a onclick="window.open('http://www.telegeography.com/research-services/global-bandwidth-research-service/index.html','tg'); return false;" href="http://www.telegeography.com/research-services/global-bandwidth-research-service/index.html">Global Bandwidth Research Service</a> and is updated on a regular basis.</p>
+			<p>To learn more about TeleGeography or this map please click <a onclick="window.open('http://www.telegeography.com/telecom-resources/telegeography-infographics/submarine-cable-map/','tg'); return false;" href="http://www.telegeography.com/telecom-resources/telegeography-infographics/submarine-cable-map/">here</a>.</p>
 			<p id="sponsor">
 				<span>Sponsored in part by</span><br />
-				<a href="mailto:icn@telecomegypt.com" onclick="googleAnalyticsCall('sponsor');"><img src="images/telecom-egypt-sponsored.png" height="82" alt="Telecom Egypt Sponsored" width="275" /></a>
+				<a onclick="googleAnalyticsCall('sponsor');" href="mailto:icn@telecomegypt.com"><img width="275" src="images/telecom-egypt-sponsored.png" height="82" alt="Telecom Egypt Sponsored" /></a>
 			</p>
 			<div id="footer">
-				<a href="http://www.facebook.com/sharer.php?u=http://www.submarinecablemap.com/" class="facebook"></a>
-				<a href="https://twitter.com/share?original_referer=http%3A%2F%2Fwww.submarinecablemap.com%2F&amp;source=tweetbutton&amp;text=Submarine+Cable+Map&amp;url=http%3A%2F%2Fwww.submarinecablemap.com" class="twitter"></a>
+				<a class="facebook" href="http://www.facebook.com/sharer.php?u=http://www.submarinecablemap.com/"></a>
+				<a class="twitter" href="https://twitter.com/share?original_referer=http%3A%2F%2Fwww.submarinecablemap.com%2F&amp;source=tweetbutton&amp;text=Submarine+Cable+Map&amp;url=http%3A%2F%2Fwww.submarinecablemap.com"></a>
 				<a href="mailto:cablemap@telegeography.com">Feedback</a>
 				<span>All content &#169; 2012 PriMetrica, Inc.</span>
 			</div>
 		</div>
-			<div class="ui-widget" id="nav">
+			<div id="nav" class="ui-widget">
 				<input id="search" />
 			</div>
 		<div id="content">
@@ -443,6 +449,6 @@
 		</div>
 	</div>
 	<div id="map_canvas"></div>
-	<div id="updated-on"><a href="https://github.com/telegeography/www.submarinecablemap.com" onclick="window.open(this.href,'github'); googleAnalyticsCall('github'); return false;">Updated on May 17, 2012</a></div>
+	<div id="updated-on"><a onclick="window.open(this.href,'github'); googleAnalyticsCall('github'); return false;" href="https://github.com/telegeography/www.submarinecablemap.com">Updated on May 17, 2012</a></div>
 </body> 
 </html>
