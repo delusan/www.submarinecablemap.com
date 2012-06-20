@@ -1700,6 +1700,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "-66.077959",
+          "18.459906"
+        ]
+      },
+      "properties": {
+        "name": "Condado Beach, PR, United States",
+        "id": "6084"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "-6.087192",
           "36.276545"
         ]
