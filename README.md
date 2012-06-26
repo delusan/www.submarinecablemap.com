@@ -34,4 +34,4 @@ We use [Google's Maps API v3.](http://code.google.com/apis/maps/documentation/ja
 Questions? Corrections?
 ------------------------
 
-[cablemap@telgeography.com](mailto:cablemap@telgeography.com)
+[cablemap@telegeography.com](mailto:cablemap@telegeography.com)
