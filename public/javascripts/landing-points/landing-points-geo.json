@@ -4976,6 +4976,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "-74.005952",
+          "40.714342"
+        ]
+      },
+      "properties": {
+        "name": "New York, New York, United States",
+        "id": "3715"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "-151.291698",
           "60.689798"
         ]
