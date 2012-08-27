@@ -76,6 +76,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "8.738675",
+          "41.919284"
+        ]
+      },
+      "properties": {
+        "name": "Ajaccio, France",
+        "id": "6053"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "140.612324",
           "36.383558"
         ]
@@ -1273,6 +1287,20 @@
       "properties": {
         "name": "Canefield, Dominica",
         "id": "8835"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "7.017344",
+          "43.552878"
+        ]
+      },
+      "properties": {
+        "name": "Cannes, France",
+        "id": "6279"
       }
     },
     {
@@ -3758,6 +3786,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "5.878155",
+          "43.102944"
+        ]
+      },
+      "properties": {
+        "name": "La Seyne, France",
+        "id": "7766"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "3.423247",
           "6.438895"
         ]
@@ -4087,6 +4129,20 @@
       "properties": {
         "name": "Lynnwood, Washington, United States",
         "id": "5770"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "8.937140",
+          "42.636547"
+        ]
+      },
+      "properties": {
+        "name": "L’Île-Rousse, France",
+        "id": "7765"
       }
     },
     {
@@ -8146,7 +8202,7 @@
       },
       "properties": {
         "name": "Willemstad, Curaçao",
-        "id": "10729"
+        "id": "4275"
       }
     },
     {
@@ -8160,7 +8216,7 @@
       },
       "properties": {
         "name": "Willemstad, Curaçao",
-        "id": "4275"
+        "id": "10729"
       }
     },
     {
