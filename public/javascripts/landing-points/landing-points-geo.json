@@ -2232,6 +2232,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "27.866667",
+          "-32.983281"
+        ]
+      },
+      "properties": {
+        "name": "East London, South Africa",
+        "id": "9248"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "-78.802882",
           "26.539633"
         ]
@@ -5753,6 +5767,20 @@
       "properties": {
         "name": "Ponta Delgada, Portugal",
         "id": "5945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "25.569918",
+          "-33.932638"
+        ]
+      },
+      "properties": {
+        "name": "Port Elizabeth, South Africa",
+        "id": "8847"
       }
     },
     {
