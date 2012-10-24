@@ -31,6 +31,29 @@ How did you make the Submarine Cable Map?
 
 We use [Google's Maps API v3.](http://code.google.com/apis/maps/documentation/javascript/) to transform the [Google Fusion Tables](http://www.google.com/fusiontables) into two separate map layers of cable routes and landing points. The interactivity on the map is driven by javascript and was written in-house at TeleGeography.
 
+
+How can I download the KML or a CSV of the dataset?
+--------------------------------------------------
+
+Below are links to both of the datasets used for the [http://www.submarinecablemap.com](Submarine Cable Map).
+
+__Submarine Cables:__
+
+[https://www.google.com/fusiontables/DataSource?docid=1BVxUz5t3qDmHJApb6FVckR5mJDOn_xYFocOKWnA](https://www.google.com/fusiontables/DataSource?docid=1BVxUz5t3qDmHJApb6FVckR5mJDOn_xYFocOKWnA)
+
+__Landing points:__
+
+[https://www.google.com/fusiontables/DataSource?docid=1viJdQy7bRfdGlFuVAEYLrTQ7TClIwtPKCdcpCYY](https://www.google.com/fusiontables/DataSource?docid=1viJdQy7bRfdGlFuVAEYLrTQ7TClIwtPKCdcpCYY)
+
+
+__To download as KML try the following steps:__
+
+1. Click 'Visualize' then select 'Map'.
+2. Then click the 'Download KML' link available above the map.
+
+__Note:__ For landing points, modify the 'Location' dropdown menu to 'coordinates' from 'name', then click 'Download KML' to get the landing point data.
+
+
 Questions? Corrections?
 ------------------------
 
