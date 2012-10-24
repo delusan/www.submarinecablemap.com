@@ -35,7 +35,7 @@ We use [Google's Maps API v3.](http://code.google.com/apis/maps/documentation/ja
 How can I download the KML or a CSV of the dataset?
 --------------------------------------------------
 
-Below are links to both of the datasets used for the [http://www.submarinecablemap.com](Submarine Cable Map).
+Below are links to both of the datasets used for the [Submarine Cable Map](http://www.submarinecablemap.com).
 
 __Submarine Cables:__
 
