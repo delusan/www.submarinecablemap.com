@@ -6964,6 +6964,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "4.228399",
+          "56.078332"
+        ]
+      },
+      "properties": {
+        "name": "South Arne",
+        "id": "10780"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "-3.006373",
           "53.647969"
         ]
@@ -7524,6 +7538,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "-7.147226",
+          "62.289963"
+        ]
+      },
+      "properties": {
+        "name": "Tjornuvik, Faeroe Islands",
+        "id": "5724"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "49.400326",
           "-18.146221"
         ]
@@ -7874,6 +7902,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "4.748503",
+          "55.715635"
+        ]
+      },
+      "properties": {
+        "name": "Tyra",
+        "id": "10782"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "-5.391813",
           "35.565908"
         ]
@@ -7951,6 +7993,20 @@
       "properties": {
         "name": "Vaasa, Finland",
         "id": "5052"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "4.564293",
+          "55.804076"
+        ]
+      },
+      "properties": {
+        "name": "Valdemar",
+        "id": "10781"
       }
     },
     {
@@ -8063,6 +8119,20 @@
       "properties": {
         "name": "Vestero, Denmark",
         "id": "10321"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-20.267321",
+          "63.437685"
+        ]
+      },
+      "properties": {
+        "name": "Vestmannaeyjar, Iceland",
+        "id": "5858"
       }
     },
     {
