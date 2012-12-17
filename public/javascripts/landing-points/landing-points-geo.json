@@ -608,6 +608,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "-79.566674",
+          "8.949969"
+        ]
+      },
+      "properties": {
+        "name": "Balboa, Panama",
+        "id": "8722"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "28.167425",
           "43.414344"
         ]
@@ -3100,6 +3114,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "-70.050011",
+          "12.616594"
+        ]
+      },
+      "properties": {
+        "name": "Hudishibana, Aruba",
+        "id": "10790"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "-0.321028",
           "54.180521"
         ]
@@ -4353,6 +4381,20 @@
       "properties": {
         "name": "Mangalia, Romania",
         "id": "6059"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-80.716203",
+          "-0.949971"
+        ]
+      },
+      "properties": {
+        "name": "Manta, Ecuador",
+        "id": "8918"
       }
     },
     {
@@ -8300,7 +8342,7 @@
       },
       "properties": {
         "name": "Willemstad, Curaçao",
-        "id": "4275"
+        "id": "10729"
       }
     },
     {
@@ -8314,7 +8356,7 @@
       },
       "properties": {
         "name": "Willemstad, Curaçao",
-        "id": "10729"
+        "id": "4275"
       }
     },
     {
