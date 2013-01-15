@@ -753,8 +753,8 @@
         ]
       },
       "properties": {
-        "name": "Bar,Serbia",
-        "id": "6023"
+        "name": "Bar, Montenegro",
+        "id": "9342"
       }
     },
     {
@@ -1021,6 +1021,20 @@
       "properties": {
         "name": "Bluefields, Nicaragua",
         "id": "5920"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "145.623730",
+          "-40.950776"
+        ]
+      },
+      "properties": {
+        "name": "Boat Harbour, Tasmania, Australia",
+        "id": "7813"
       }
     },
     {
@@ -2456,6 +2470,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "146.850055",
+          "-41.033294"
+        ]
+      },
+      "properties": {
+        "name": "Four Mile Bluff, Australia",
+        "id": "10796"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "-13.238091",
           "8.485379"
         ]
@@ -3163,6 +3191,20 @@
       "properties": {
         "name": "Ijmuiden, Netherlands",
         "id": "10414"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "145.729538",
+          "-38.633448"
+        ]
+      },
+      "properties": {
+        "name": "Inverloch, Australia",
+        "id": "7860"
       }
     },
     {
@@ -4549,6 +4591,20 @@
       "properties": {
         "name": "Mazatlán, Mexico",
         "id": "3470"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "147.071207",
+          "-38.443617"
+        ]
+      },
+      "properties": {
+        "name": "McGaurans Beach, Australia",
+        "id": "10797"
       }
     },
     {
@@ -6600,6 +6656,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "153.195501",
+          "-30.148158"
+        ]
+      },
+      "properties": {
+        "name": "Sandy Beach, Victoria, Australia",
+        "id": "7812"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "-77.399525",
           "26.025151"
         ]
@@ -7195,6 +7265,20 @@
       "properties": {
         "name": "St. Valéry, France",
         "id": "5331"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "145.294060",
+          "-40.760443"
+        ]
+      },
+      "properties": {
+        "name": "Stanley, Australia",
+        "id": "7861"
       }
     },
     {
