@@ -104,6 +104,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "21.741670",
+          "32.881767"
+        ]
+      },
+      "properties": {
+        "name": "Al Baida, Libya",
+        "id": "10838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "19.576529",
+          "30.378121"
+        ]
+      },
+      "properties": {
+        "name": "Al Brega, Libya",
+        "id": "7870"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "51.451930",
           "25.538577"
         ]
@@ -167,6 +195,20 @@
       "properties": {
         "name": "Al Khobar, Saudi Arabia",
         "id": "7729"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "14.264464",
+          "32.649673"
+        ]
+      },
+      "properties": {
+        "name": "Al Khoms, Libya",
+        "id": "7866"
       }
     },
     {
@@ -937,6 +979,20 @@
       "properties": {
         "name": "Belmullet, Ireland",
         "id": "10395"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "20.066717",
+          "32.116619"
+        ]
+      },
+      "properties": {
+        "name": "Benghazi, Libya",
+        "id": "7871"
       }
     },
     {
@@ -1966,6 +2022,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "22.639228",
+          "32.763612"
+        ]
+      },
+      "properties": {
+        "name": "Darnah, Libya",
+        "id": "7873"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "-3.578377",
           "50.351771"
         ]
@@ -2015,20 +2085,6 @@
       "properties": {
         "name": "Deeside Clwyd,United Kingdom",
         "id": "10338"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "22.639228",
-          "32.763612"
-        ]
-      },
-      "properties": {
-        "name": "Derna, Libya",
-        "id": "7873"
       }
     },
     {
@@ -3037,6 +3093,20 @@
       "properties": {
         "name": "Helsinki, Finland",
         "id": "3064"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-118.399530",
+          "33.862244"
+        ]
+      },
+      "properties": {
+        "name": "Hermosa Beach, California, United States",
+        "id": "4966"
       }
     },
     {
@@ -4766,6 +4836,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "15.094762",
+          "32.374312"
+        ]
+      },
+      "properties": {
+        "name": "Misurata, Libya",
+        "id": "7867"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "139.620703",
           "35.144082"
         ]
@@ -5333,6 +5417,20 @@
       "properties": {
         "name": "Nynashamn, Sweden",
         "id": "5951"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-158.000042",
+          "21.438883"
+        ]
+      },
+      "properties": {
+        "name": "Oahu, Hawaii, United States",
+        "id": "5769"
       }
     },
     {
@@ -6278,6 +6376,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "18.411942",
+          "30.586725"
+        ]
+      },
+      "properties": {
+        "name": "Ras Lanuf, Libya",
+        "id": "7869"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "-1.068206",
           "54.613891"
         ]
@@ -6971,6 +7083,20 @@
       "properties": {
         "name": "Singapore, Singapore",
         "id": "3029"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "16.588316",
+          "31.205308"
+        ]
+      },
+      "properties": {
+        "name": "Sirt, Libya",
+        "id": "7868"
       }
     },
     {
@@ -7692,6 +7818,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "23.960317",
+          "32.079576"
+        ]
+      },
+      "properties": {
+        "name": "Tobrok, Libya",
+        "id": "7874"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "43.663123",
           "-23.354787"
         ]
@@ -7699,6 +7839,20 @@
       "properties": {
         "name": "Toliary, Madagascar",
         "id": "7398"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "20.950020",
+          "32.716731"
+        ]
+      },
+      "properties": {
+        "name": "Tolmeta, Libya",
+        "id": "7872"
       }
     },
     {
@@ -8426,7 +8580,7 @@
       },
       "properties": {
         "name": "Willemstad, Curaçao",
-        "id": "10729"
+        "id": "4275"
       }
     },
     {
@@ -8440,7 +8594,7 @@
       },
       "properties": {
         "name": "Willemstad, Curaçao",
-        "id": "4275"
+        "id": "10729"
       }
     },
     {
@@ -8546,6 +8700,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "12.529781",
+          "32.774654"
+        ]
+      },
+      "properties": {
+        "name": "Zawia, Libya",
+        "id": "7865"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "3.206964",
           "51.330742"
         ]
@@ -8553,6 +8721,20 @@
       "properties": {
         "name": "Zeebrugge, Belgium",
         "id": "3139"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "12.083361",
+          "32.933366"
+        ]
+      },
+      "properties": {
+        "name": "Zwara, Libya",
+        "id": "7864"
       }
     }
   ]
