@@ -412,20 +412,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "-4.537221",
-          "53.395396"
-        ]
-      },
-      "properties": {
-        "name": "Anglesey,United Kingdom",
-        "id": "10314"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           "-134.582274",
           "57.501816"
         ]
@@ -559,6 +545,20 @@
       "properties": {
         "name": "Auckland, New Zealand",
         "id": "3319"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "160.700012",
+          "-8.766686"
+        ]
+      },
+      "properties": {
+        "name": "Auki, Solomon Islands",
+        "id": "10893"
       }
     },
     {
@@ -3212,6 +3212,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "159.948316",
+          "-9.430342"
+        ]
+      },
+      "properties": {
+        "name": "Honiara, Solomon Islands",
+        "id": "10892"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "-70.050011",
           "12.616594"
         ]
@@ -4248,6 +4262,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "-6.165895",
+          "53.526301"
+        ]
+      },
+      "properties": {
+        "name": "Lusk, Ireland",
+        "id": "10907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "10.514617",
           "57.244826"
         ]
@@ -5277,6 +5305,20 @@
       "properties": {
         "name": "Norden, Germany",
         "id": "5840"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "157.199928",
+          "-8.241061"
+        ]
+      },
+      "properties": {
+        "name": "Noro, Soloman Islands",
+        "id": "10984"
       }
     },
     {
@@ -8595,20 +8637,6 @@
       "properties": {
         "name": "Willemstad, Curaçao",
         "id": "10729"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-6.137134",
-          "53.589845"
-        ]
-      },
-      "properties": {
-        "name": "Woodland Meath,Ireland",
-        "id": "10337"
       }
     },
     {
