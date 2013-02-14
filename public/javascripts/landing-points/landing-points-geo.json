@@ -2092,6 +2092,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "72.955573",
+          "3.608089"
+        ]
+      },
+      "properties": {
+        "name": "Dhangethi, Maldives",
+        "id": "10813"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "56.258046",
           "25.616979"
         ]
@@ -2330,6 +2344,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "4.616394",
+          "52.616395"
+        ]
+      },
+      "properties": {
+        "name": "Egmond, Netherlands",
+        "id": "8409"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "-78.802882",
           "26.539633"
         ]
@@ -2435,6 +2463,20 @@
       "properties": {
         "name": "Estepona, Spain",
         "id": "5943"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "73.070817",
+          "5.103249"
+        ]
+      },
+      "properties": {
+        "name": "Eydhafushi, Maldives",
+        "id": "10812"
       }
     },
     {
@@ -2624,6 +2666,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "73.426889",
+          "-0.298361"
+        ]
+      },
+      "properties": {
+        "name": "Fuvahmulah, Maldives",
+        "id": "10817"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "119.303230",
           "26.071129"
         ]
@@ -2631,6 +2687,34 @@
       "properties": {
         "name": "Fuzhou, China",
         "id": "8620"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "73.455499",
+          "0.288801"
+        ]
+      },
+      "properties": {
+        "name": "Gahdhoo, Maldives",
+        "id": "10815"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "73.544643",
+          "1.918580"
+        ]
+      },
+      "properties": {
+        "name": "Gan, Maldives",
+        "id": "10814"
       }
     },
     {
@@ -3156,6 +3240,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          "73.089188",
+          "-0.606046"
+        ]
+      },
+      "properties": {
+        "name": "Hithadhoo, Maldives",
+        "id": "10816"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           "9.995618",
           "57.456140"
         ]
@@ -3233,6 +3331,20 @@
       "properties": {
         "name": "Hudishibana, Aruba",
         "id": "10790"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "73.540226",
+          "4.211915"
+        ]
+      },
+      "properties": {
+        "name": "Hulhumale, Maldives",
+        "id": "9215"
       }
     },
     {
@@ -3849,6 +3961,20 @@
       "properties": {
         "name": "Kuantan, Malaysia",
         "id": "5903"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "73.071420",
+          "6.622502"
+        ]
+      },
+      "properties": {
+        "name": "Kulhudhufushi, Maldives",
+        "id": "10811"
       }
     },
     {
@@ -6019,6 +6145,20 @@
       "properties": {
         "name": "Port Elizabeth, South Africa",
         "id": "8847"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "8.781641",
+          "-0.720989"
+        ]
+      },
+      "properties": {
+        "name": "Port Gentil, Gabon",
+        "id": "10818"
       }
     },
     {
@@ -8622,7 +8762,7 @@
       },
       "properties": {
         "name": "Willemstad, Curaçao",
-        "id": "4275"
+        "id": "10729"
       }
     },
     {
@@ -8636,7 +8776,21 @@
       },
       "properties": {
         "name": "Willemstad, Curaçao",
-        "id": "10729"
+        "id": "4275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-0.601608",
+          "53.656201"
+        ]
+      },
+      "properties": {
+        "name": "Winterton, United Kingdom",
+        "id": "3269"
       }
     },
     {
