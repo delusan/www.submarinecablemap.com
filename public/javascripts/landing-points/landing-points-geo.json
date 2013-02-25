@@ -2904,20 +2904,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "6.567009",
-          "53.219418"
-        ]
-      },
-      "properties": {
-        "name": "Groningen, Netherlands",
-        "id": "3935"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           "-120.621440",
           "35.120592"
         ]
@@ -3345,20 +3331,6 @@
       "properties": {
         "name": "Hulhumale, Maldives",
         "id": "9215"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "-0.321028",
-          "54.180521"
-        ]
-      },
-      "properties": {
-        "name": "Hunmanby, United Kingdom",
-        "id": "5747"
       }
     },
     {
@@ -5319,6 +5291,20 @@
       "properties": {
         "name": "Nasugbu, Philippines",
         "id": "9603"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-35.210942",
+          "-5.794435"
+        ]
+      },
+      "properties": {
+        "name": "Natal, Brazil",
+        "id": "3354"
       }
     },
     {
